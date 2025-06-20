@@ -1,7 +1,7 @@
 # Laboratory Activity 2: Data Cleaning and Analysis using Titanic dataset
 
 ## Description
-In this activity you will practice a full data‑preparation workflow followed by basic exploratory visualizations using the Titanic passenger dataset. You will:
+This activity is a practice of full data‑preparation workflow followed by basic exploratory visualizations using the Titanic passenger dataset:
 
 1. Mount Google Drive and load the raw CSV (`train.csv`).
 2. Inspect the data structure and summary statistics.
@@ -15,7 +15,7 @@ In this activity you will practice a full data‑preparation workflow followed b
    - Bar chart of survival rate by gender
    - Bar chart of survival rate by passenger class
 
-Each step is presented in the Jupyter notebook with code cells followed by plain‑English commentary on the computational thinking behind each transformation.
+Each step is presented in the Jupyter notebook with code cells followed by commentary on the thinking behind each transformation.
 
 ---
 
@@ -44,24 +44,26 @@ Laboratory Activity 2
 ## Setup
 
 1. **Mount Google Drive** (if using Colab)  
-   ```python
+
+   `
    from google.colab import drive
    drive.mount('/content/drive')
-````
+   `
 
-2. **Load the data**
+3. **Load the data**
 
-   ```python
+   `
    import pandas as pd
-   df = pd.read_csv("/content/drive/MyDrive/AAA_datasets/titanic2/train.csv")
-   ```
-3. **Install dependencies** (if running locally)
+   df = pd.read_csv("/content/drive/MyDrive/train.csv")
+   `
+4. **Install dependencies** (if needed)
 
-   ```bash
+   `
    pip install pandas matplotlib
-   ```
-4. **Open the notebook**
-   Launch `lab2_titanic_cleaning_Matro,Eugene_Allen.ipynb` in Jupyter or Colab and run all cells sequentially.
+   `
+   
+5. **Open the notebook**
+   Launch `lab2_titanic_Matro,Eugene_Allen.ipynb` in Jupyter or Colab and run all cells sequentially.
 
 ---
 
