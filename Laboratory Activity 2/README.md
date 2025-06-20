@@ -23,8 +23,8 @@ Each step is presented in the Jupyter notebook with code cells followed by comme
 
 Laboratory Activity 2
 
-- `lab2_titanic_Matro,Eugene_Allen.ipynb` --> # Main notebook with all questions
 - `README.md` --> # This file
+- `lab2_titanic_Matro,Eugene_Allen.ipynb` --> # Main notebook with all questions
 - `titanic.csv` --> # Titanic dataset 
 
 ---
