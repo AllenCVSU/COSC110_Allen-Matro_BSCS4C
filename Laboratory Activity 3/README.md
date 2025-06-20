@@ -34,11 +34,13 @@ Laboratory Activity 3
 ## Setup
 
 1. **Install SymPy** (if needed)  
+
    `
    pip install sympy
    `
 
-2. **Open the notebook**
+3. **Open the notebook**
+
    Launch `lab3_sympy_Matro,Eugene_Allen.ipynb` in Jupyter or Colab and run all cells sequentially.
 
 ---
