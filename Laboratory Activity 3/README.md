@@ -17,8 +17,8 @@ Each step is laid out as a “Task” in the Jupyter notebook, with code cells f
 
 Laboratory Activity 3
 
-- `lab3_sympy_Matro,Eugene_Allen.ipynb` --> # Main notebook containing all tasks  
 - `README.md` --> # This file  
+- `lab3_sympy_Matro,Eugene_Allen.ipynb` --> # Main notebook containing all tasks  
 
 ---
 
