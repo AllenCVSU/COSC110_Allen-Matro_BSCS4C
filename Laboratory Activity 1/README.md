@@ -39,7 +39,7 @@ Laboratory Activity 1
 1. **Prepare the data**
 
    * If running Colab locally, ensure `data/titanic.csv` exists.
-   * If using Colab with Google Drive, the first cell mounts Google Drive and loads the file from `MyDrive/titanic.csv`.
+   * If using Colab with Google Drive, the first cell mounts Google Drive and loads the file from `/content/drive/MyDrive/train.csv`.
 
      ```python
      from google.colab import drive
