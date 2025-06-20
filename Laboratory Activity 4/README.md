@@ -91,7 +91,7 @@ Laboratory Activity 4
 
   `
   exp(x).series(x, 0, 4)
-  # outputs 1 + x + x**2/2 + x**3/6 + O(x**4)
+  outputs 1 + x + x**2/2 + x**3/6 + O(x**4)
   `
   
 * **Prompt**: How many terms are shown? What does the `O(x**4)` indicate?
