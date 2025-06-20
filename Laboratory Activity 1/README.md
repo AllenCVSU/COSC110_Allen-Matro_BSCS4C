@@ -16,8 +16,8 @@ Each step is presented as questions in the Jupyter notebook, with code cells fol
 
 Laboratory Activity 1
 
-- `lab1_titanic_Matro,Eugene_Allen.ipynb` --> # Main notebook with all questions
 - `README.md` --> # This file
+- `lab1_titanic_Matro,Eugene_Allen.ipynb` --> # Main notebook with all questions
 - `titanic.csv` --> # Titanic dataset
 
 ---
