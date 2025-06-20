@@ -1,33 +1,28 @@
-```markdown
-# Laboratory Activity 1: Titanic Dataset Analysis
+# Laboratory Activity 1: Computational Thinking with the Titanic Dataset using Python
 
 ## Description
-This activity walks you through a classic data‐science workflow on the Titanic passenger dataset. You will:
-1. Mount Google Drive (if using Colab) and load the CSV file.
+This activity walks through a classic data‐science workflow on the Titanic passenger dataset. The activity goes through the following:
+1. Mount Google Drive and load the CSV file.
 2. Inspect and understand the data structure.
 3. Identify and handle missing values.
 4. Compute basic statistics (e.g. survival rate).
 5. Visualize age distributions of survivors vs. non‑survivors.
 
-Each step is presented as a separate “question” in the Jupyter notebook, with code cells followed by plain‑English descriptions of the computational thinking and algorithms used.
+Each step is presented as questions in the Jupyter notebook, with code cells followed by plain‑English descriptions of the computational thinking and algorithms used.
 
 ---
 
-## 📂 Folder Structure
+## Folder
 
-```
+Laboratory Activity 1
 
-Laboratory Activity 1/
-├── Laboratory\_Activity\_1.ipynb    # Main notebook with all questions (1–4)
-├── README.md                      # This file
-└── data/
-└── titanic.csv                # Titanic dataset (copy into this folder or update path)
-
-````
+- `lab1_titanic_Matro,Eugene_Allen.ipynb` --> # Main notebook with all questions
+- `README.md` --> # This file
+- `titanic.csv` --> # Titanic dataset
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - **Environment**: Google Colab or local Jupyter Notebook
 - **Python**: 3.x
@@ -39,36 +34,30 @@ Laboratory Activity 1/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/your‑username/your‑repo.git
-   cd your‑repo/"Laboratory Activity 1"
-````
-
-2. **Prepare the data**
+1. **Prepare the data**
 
    * If running locally, ensure `data/titanic.csv` exists.
-   * If using Colab, the first cell mounts your Google Drive and loads the file from `MyDrive/AAA_datasets/titanic/titanic.csv`.
+   * If using Colab, the first cell mounts Google Drive and loads the file from `MyDrive/titanic.csv`.
 
      ```python
      from google.colab import drive
      drive.mount('/content/drive')
      ```
 
-3. **Install dependencies** (if needed)
+2. **Install dependencies** (if needed)
 
    ```bash
    pip install pandas matplotlib
    ```
 
-4. **Open the notebook**
+3. **Open the notebook**
    Launch `Laboratory_Activity_1.ipynb` in Jupyter or Colab and run all cells in order.
 
 ---
 
-## Activity Breakdown
+## Activity
 
 ### Question 1: Data Loading & Inspection
 
@@ -118,7 +107,7 @@ Laboratory Activity 1/
   1. Filter `df` by `Survived == 1` and `== 0`.
   2. Plot two overlapping histograms with `matplotlib.pyplot`.
   3. Compute and compare mean ages for each group.
-  4. Write up your computational‑thinking commentary.
+  4. Write up computational‑thinking commentary.
 * **Notebook Cells**:
 
   * Cell “Plot Age Distribution”
@@ -126,9 +115,9 @@ Laboratory Activity 1/
 
 ---
 
-## Computational Thinking Notes
+## Notes
 
-At each stage you’ll find a short text explanation of:
+At each stage can be found a short text explanation of:
 
 * **What** the code is doing.
 * **Why** it’s structured that way.
